@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jersonb.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/jersonb.github.io/static/js/main.55102686.chunk.js",
+    "main.js.map": "/jersonb.github.io/static/js/main.55102686.chunk.js.map",
+    "runtime-main.js": "/jersonb.github.io/static/js/runtime-main.188eb2f4.js",
+    "runtime-main.js.map": "/jersonb.github.io/static/js/runtime-main.188eb2f4.js.map",
+    "static/js/2.8440d837.chunk.js": "/jersonb.github.io/static/js/2.8440d837.chunk.js",
+    "static/js/2.8440d837.chunk.js.map": "/jersonb.github.io/static/js/2.8440d837.chunk.js.map",
+    "index.html": "/jersonb.github.io/index.html",
+    "precache-manifest.3e27cc6380abb480f588c791de5727ed.js": "/jersonb.github.io/precache-manifest.3e27cc6380abb480f588c791de5727ed.js",
+    "service-worker.js": "/jersonb.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/jersonb.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.8440d837.chunk.js.LICENSE.txt": "/jersonb.github.io/static/js/2.8440d837.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/jersonb.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.188eb2f4.js",
+    "static/js/2.8440d837.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.55102686.chunk.js"
+  ]
+}
