@@ -5,22 +5,22 @@ import { Switch, Route } from "react-router-dom";
 
 
 import { FaBeer } from 'react-icons/fa';
+import Footer from './components/Footer';
 
 function App() {
   return (
 
     <React.Fragment>
-        <NavBar />
-        <Switch>
-      <header className="App-header">
-        
-        <p>Jerson Teste <FaBeer/></p>
-      </header>
-      <Route exact path = "/" />
+      <NavBar />
+      <Switch>
+        <header className="App-header">
+          <p>Jerson Teste <FaBeer /></p>
+        </header>
+        <Route exact path="/" />
+      </Switch>
+      <Footer/>
 
-        </Switch>
-
-      </React.Fragment>
+    </React.Fragment>
 
   );
 }
