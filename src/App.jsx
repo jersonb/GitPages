@@ -1,19 +1,27 @@
 import React from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
+import { Switch, Route } from "react-router-dom";
+
 
 import { FaBeer } from 'react-icons/fa';
 
 function App() {
   return (
-    <div className="App">
+
+    <React.Fragment>
+        <NavBar />
+        <Switch>
       <header className="App-header">
         
         <p>Jerson Teste <FaBeer/></p>
       </header>
-      <main>
-      
-      </main>
-    </div>
+      <Route exact path = "/" />
+
+        </Switch>
+
+      </React.Fragment>
+
   );
 }
 
