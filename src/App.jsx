@@ -2,19 +2,18 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
 import { Switch, Route } from "react-router-dom";
-
-
-import { FaBeer } from 'react-icons/fa';
+import { FaHammer } from 'react-icons/fa';
 import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
 
     <React.Fragment>
       <NavBar />
       <Switch>
         <header className="App-header">
-          <p>Jerson Teste <FaBeer /></p>
+          <p> <FaHammer /></p>
+          <code>Hello Word!</code>
         </header>
         <Route exact path="/" />
       </Switch>

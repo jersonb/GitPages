@@ -1,7 +1,7 @@
 ﻿.footer {
   background-color: #1d1d1d;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .title {
@@ -15,4 +15,18 @@
 .footerlink,
 .footerlink:hover {
   color: #fff;
+}
+
+.footericons{
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+
+}.footericons:hover{
+  color: #fff;
+  font-size: calc(10px + 2.5vmin);
+}
+
+.footerlistitem{
+  width:15%;
+ text-align:center
 }
